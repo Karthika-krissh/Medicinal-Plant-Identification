@@ -24,7 +24,7 @@
 
    Dataset Source: Kaggle (Medicinal Plant Image Dataset)
 
-   Model Architectures: CNN, Transfer Learning (ResNet, VGG16, InceptionV3)
+   Model Architectures: CNN, MobileNet
 
    Development Environment: Google Colab, Jupyter Notebook
 
@@ -36,9 +36,7 @@
 
     Training Set: 80% of images
 
-    Validation Set: 10% of images
-
-    Test Set: 10% of images
+    Test Set: 20% of images
 
     Data Preprocessing Steps:
 
@@ -59,7 +57,7 @@
 
     Custom CNN Model – A simple CNN with convolutional, pooling, and fully connected layers.
 
-    Transfer Learning – Using pre-trained models like ResNet50, VGG16, and EfficientNet for better accuracy.
+    Transfer Learning – Using pre-trained models like MobileNet.
 
    Step 3: Model Training
 
@@ -83,9 +81,12 @@
 
 7. Current Progress & Next Steps
 
-   The dataset has been collected and preprocessed.
-
-   Model selection is in progress, with experiments on CNN and transfer learning architectures.
+ Collected and preprocessed a medicinal plant dataset.
+ Implemented MobileNet Model.
+ Built a Flask-based user interface for image upload and prediction.
+ Integrated frontend with backend for real-time plant identification.
+ Achieved satisfactory accuracy with smooth UI functionality.
+   
 
 8. Future Enhancements
 
